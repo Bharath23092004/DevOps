@@ -1,5 +1,6 @@
 pool:
-  vmImage: 'ubuntu-latest' # Adjust VM image if needed
+  name: 'Default' # Replace with your agent pool name
+  vmImage: 'ubuntu-latest' # Adjust if necessary
 
 stages:
 - stage: Build
